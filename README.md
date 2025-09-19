@@ -15,8 +15,10 @@ Split into training and testing sets for evaluation.
 🚀 How to Execute:
 1.Clone the repository
 2.Create a virtual environment:
-   conda create -n sentiment python=3.8
-   conda activate sentiment
+'''
+conda create -n sentiment python=3.8
+conda activate sentiment
+'''
 3.Install dependencies:
    pip install -r requirements.txt
 4.Launch Jupyter Notebook:
