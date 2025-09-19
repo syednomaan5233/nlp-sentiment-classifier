@@ -1,26 +1,52 @@
-💬 Sentiment Analysis (NLP)
-📌 Project Overview
+# 📺 Netflix Data Analysis
 
-This project applies Natural Language Processing (NLP) techniques to analyze text reviews and classify them into Positive, Negative, or Neutral sentiments. It demonstrates the complete pipeline of text preprocessing, feature extraction, model training, and evaluation using machine learning.
+## 📖 Overview
+This project applies Natural Language Processing (NLP) to analyze customer reviews and classify them as positive, negative, or neutral.
+It demonstrates skills in text preprocessing, feature extraction, and machine learning model training.
 
-The goal is to understand how people express opinions in text and use ML models to automatically detect sentiment.
-.
+---
 
-📂 Dataset
+## 🗂 Dataset
+- Source: [IMDb Movie Reviews Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)  
+- Records: ~50,000  
+- Features: review text, sentiment label  
 
-Example Source: IMDb Movie Reviews Datasetor Kaggle Sentiment Dataset
-Contains thousands of labeled text reviews.
-Split into training and testing sets for evaluation.
+---
 
-🚀 How to Execute:
-1.Clone the repository
-2.Create a virtual environment:
-'''
-conda create -n sentiment python=3.8
-conda activate sentiment
-'''
-3.Install dependencies:
+## ⚙️ Methodology
+1. **Data Preprocessing**
+   - Tokenization, stopword removal, stemming
+   - Converted text to numeric features using TF-IDF
+2. **Model Training**
+   - Logistic Regression, Naive Bayes
+3. **Evaluation**
+   - Accuracy, Precision, Recall, F1-score
+
+---
+
+## 📊 Key Insights
+- Text preprocessing significantly improves model performance.  
+- Logistic Regression and Naive Bayes work best for sentiment classification.  
+  
+---
+
+## 🛠 Tech Stack
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+
+---
+
+## 🚀 How to Run
+1. Clone the repo
+2. Create a virtual environment: 
+   ```bash
+   conda create -n sentiment
+   conda activate sentiment
+   ```
+3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-4.Launch Jupyter Notebook:
-   jupyter notebook Sentiment_Analysis.ipynb
-Run the notebook cell by cell to preprocess data, train models, and view results.
+
+   ```
+4. Run the notebook cell by cell to preprocess data, train models, and view results.
