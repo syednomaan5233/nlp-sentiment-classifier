@@ -1,4 +1,4 @@
-# 📺 Netflix Data Analysis
+# 💬 Sentiment Analysis on Reviews
 
 ## 📖 Overview
 This project applies Natural Language Processing (NLP) to analyze customer reviews and classify them as positive, negative, or neutral.
